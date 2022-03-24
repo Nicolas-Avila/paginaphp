@@ -1,0 +1,49 @@
+/*tp3.1*/    
+h1{
+   text-decoration: underline;
+    font-size: 4em;
+    text-align: center;
+}
+
+p{
+    font-size: 2em;
+    text-align: center;
+}
+
+
+/*tp3*/
+
+form{
+    background-color: rgb(69, 167, 233);
+    width: 40%;    
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+}
+textarea,#colo{
+width: 80%;
+}
+
+label,input,textarea{
+    display: block;
+    font-size: 1.8em;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+        
+}
+#nombre,#texto{
+    width: 70%;
+}
+
+input{
+    border-radius: 5px;
+}
+::placeholder{
+    text-align: center;
+    width: 100%;
+    }
+#boton:hover{
+background-color: rgb(86, 223, 31);
+}
+
